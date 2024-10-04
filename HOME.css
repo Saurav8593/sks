@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background-color: white;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.logo h1 span {
+    color: #E74C3C;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.quick-contact a {
+    background-color: #E74C3C;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.quick-contact a:hover {
+    background-color: #c0392b;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0;
+    background-color: #F5F7FA;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    color: #333;
+}
+
+.hero-text h1 span {
+    color: #E74C3C;
+}
+
+.hero-text p {
+    margin: 20px 0;
+    color: #777;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1.1em;
+}
+
+.btn-primary {
+    background-color: #E74C3C;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #2C3E50;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #c0392b;
+}
+
+.btn-secondary:hover {
+    background-color: #1a252f;
+}
+
+.hero-image img {
+    width: 450px;
+    border-radius: 10px;
+}
